@@ -47,6 +47,20 @@ components:
         message:
           type: string
 
+    Section:
+      type: object
+      properties:
+        id:
+          type: string
+        name:
+          type: string
+        model:
+          type: string
+      example:
+        id: 5ebac534954b54139806c112
+        name: TVS nTorq
+        model: NS-2312
+
   responses:
     DuplicateEmail:
       description: Email already taken
